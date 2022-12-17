@@ -1,3 +1,4 @@
+#commented on master branch in origin master
 class Max_Heap:
 
     def __init__(self, arr):
@@ -37,7 +38,7 @@ class Max_Heap:
             root = "Heap is empty"
         return root
 
-
+    #heap length function
     def __len__(self):
         return len(self.heap)
 
@@ -49,7 +50,7 @@ class Max_Heap:
             return ("heap is empty")
 
 
-
+#swap function
 def _swap(heap, i, j):
     heap[i], heap[j] = heap[j], heap[i]
 
